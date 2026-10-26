@@ -1,0 +1,3 @@
+# Notes list sort toggle
+
+ACC-GF-1027B. In the web app notes list, add a sort control with three options (Newest first, Oldest first, Title A-Z) above the list. Sorting is done client-side on the notes already returned by the existing notes API list/search endpoints, and the chosen sort persists while the user types in the search box. Use the existing notes API exactly as it is today. Web app only; no backend or API changes.
