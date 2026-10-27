@@ -1,0 +1,3 @@
+# Pinned notes
+
+Add a boolean 'pinned' flag to notes. notes_api (backend): add a pinned column (default false) to the notes table, expose it in the note JSON, accept it on create/update (PATCH), and sort pinned notes first in the list endpoint. web_app (frontend): show a pin toggle on each row of the notes list that calls the API to set/unset pinned, and render pinned notes at the top with a pin icon. Keep it minimal.
