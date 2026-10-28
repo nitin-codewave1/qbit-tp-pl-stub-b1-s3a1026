@@ -1,0 +1,3 @@
+# Email one-time-code login
+
+Users log in to the notes API with an email address and a one-time code sent by email. The existing values for code expiry, how often a code can be resent, and the lockout after repeated wrong codes are withdrawn: they must be decided again and the old numbers must not be kept. Lock the account after repeated wrong codes, limit how often a code can be resent, and expire codes after a while. Scope: notes_api only.
