@@ -1,0 +1,3 @@
+# Email one-time-code login
+
+Users log in with an email address and a one-time code sent by email. notes_api: endpoints to request a code and verify it, lock the account after repeated wrong codes, limit how often a code can be resent, expire codes after a while. web_app: a login screen (email field) and a code-entry screen that calls those endpoints and shows lockout and expiry errors. The numbers for expiry, resend limit and lockout are not decided; ask for them. Scope: notes_api and web_app.
